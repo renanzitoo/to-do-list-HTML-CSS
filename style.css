@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div.fixed { 
+    position: fixed; top: 0; left: 0; 
+}
+
+.container{
+    background-color: #CCC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    width: 100vw;
+    min-height: 100vh;
+    height: auto;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #581845;
+}
+
+ul li{
+    font-size: 20px;
+    margin: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li:hover{
+    font-size: 25px;
+}
+
+.background{
+    background-color: #fff;
+    height: auto;
+    padding: 50px;
+    border-radius: 30px;
+
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 #581845;
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
